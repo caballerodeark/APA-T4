@@ -228,51 +228,6 @@ vale insertar una imagen o una captura de pantalla, debe hacerse en formato *mar
 Generación de números aleatorios mediante LGC (Linear Congruential Generator).
 Guillem Perez Sanchez 
 QP 2025
-
-Incluye:
-- Clase iterable Aleat
-- Función generadora aleat()
-
-Pruebas de la clase Aleat:
-
->>> rand = Aleat(m=32, a=9, c=13, x0=11)
->>> for _ in range(4):
-...     print(next(rand))
-...
-16
-29
-18
-15
-
->>> rand(29)
->>> for _ in range(4):
-...     print(next(rand))
-...
-18
-15
-20
-1
-
-Pruebas de la función aleat():
-
->>> rand = aleat(m=64, a=5, c=46, x0=36)
->>> for _ in range(4):
-...     print(next(rand))
-...
-34
-24
-38
-44
-
->>> rand.send(24)
-38
->>> for _ in range(4):
-...     print(next(rand))
-...
-44
-10
-32
-14
 """
 
 class Aleat:
