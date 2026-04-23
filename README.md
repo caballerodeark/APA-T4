@@ -227,7 +227,7 @@ vale insertar una imagen o una captura de pantalla, debe hacerse en formato *mar
 """
 Generación de números aleatorios mediante LGC (Linear Congruential Generator).
 Guillem Perez Sanchez 
-QP 2025
+QP 2026
 """
 
 class Aleat:
